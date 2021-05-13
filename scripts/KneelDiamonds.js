@@ -1,9 +1,14 @@
 
 document.addEventListener(
     "click",
-    (event) => {
+    (clickEvent) => {
+        if (KneelDiamonds.target.id === "orderButton") {
+
+        }
+     
     }
 )
+
 
 export const KneelDiamonds = () => {
     return `
