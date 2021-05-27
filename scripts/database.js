@@ -65,5 +65,9 @@ export const setSize = (id) => {
 }
 export const setStyle = (id) => {
     database.orderBuilder.styleId = id
-} 
+}
+
+export const orderBuilder = () => {
+    return database.orderBuilder.push
+}
 

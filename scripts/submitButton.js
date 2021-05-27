@@ -10,6 +10,7 @@ document.addEventListener(
             orderBuilder.push( setMetal, setSize, setStyle )
 
        }
-     
+       
+       return orderBuilder()
     }
-)
+) 

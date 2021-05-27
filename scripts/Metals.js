@@ -8,7 +8,7 @@ document.addEventListener(
         if (event.target.name === "metal") {
             setMetal(parseInt(event.target.value))
         }
-    }
+    } 
 )
 
 export const Metals = () => {
